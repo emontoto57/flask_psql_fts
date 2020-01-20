@@ -4,12 +4,12 @@ Flask==0.10.1
 Flask-Migrate==1.7.0
 Flask-Script==2.0.5
 Flask-SQLAlchemy==2.1
-GeoAlchemy2==0.2.6
+GeoAlchemy2
 itsdangerous==0.24
 Jinja2==2.8
 Mako==1.0.3
 MarkupSafe==0.23
-psycopg2==2.6.1
+psycopg2==2.8
 pyparsing==2.0.6
 python-editor==0.5
 six==1.10.0
@@ -17,4 +17,4 @@ SQLAlchemy==1.0.9
 SQLAlchemy-Searchable==0.9.3
 SQLAlchemy-Utils==0.31.4
 validators==0.9
-Werkzeug==0.11.2
+Werkzeug==0.11.15
