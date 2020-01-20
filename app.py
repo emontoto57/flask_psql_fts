@@ -7,7 +7,7 @@ from sqlalchemy_searchable import make_searchable, SearchQueryMixin, search
 from flask.ext.script import Manager
 from flask.ext.migrate import Migrate, MigrateCommand
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:postgres@localhost:5432/flask_fts'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
