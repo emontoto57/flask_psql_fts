@@ -7,7 +7,7 @@ Flask-SQLAlchemy==2.1
 GeoAlchemy2
 itsdangerous==0.24
 Jinja2==2.8
-Mako==1.0.3
+Mako==1.2.2
 MarkupSafe==0.23
 psycopg2==2.8
 pyparsing==2.0.6
